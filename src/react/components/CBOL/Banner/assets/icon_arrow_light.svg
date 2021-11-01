@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="38px" viewBox="0 0 37 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_arrow_light</title>
+    <g id="2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_移动端适配_1" transform="translate(-392.000000, -650.000000)">
+            <g id="编组-24" transform="translate(277.500000, 625.500000)">
+                <g id="icon_arrow_light" transform="translate(115.000000, 25.648315)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="36" height="36"></rect>
+                    <g id="编组-23" transform="translate(7.000000, 8.000000)" stroke="#EDF3FF" stroke-width="2.72340426">
+                        <line x1="0" y1="9.76816705" x2="21.787234" y2="9.76816705" id="路径-6"></line>
+                        <polyline id="路径-7" points="12.0249573 0 21.2531922 9.76816705 12.0249573 19.3522024"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+---
+
+let title = 'My Astro Site';
+// @ts-ignore
+import ReactDOM from "react-dom";
+import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import SettingProvider from '../react/utils/providers/SettingProvider'
+import App from '../react/App.tsx'
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+{ ReactDOM.render(
+   <SettingProvider>
+     <BrowserRouter>
+       <App />
+     </BrowserRouter>
+   </SettingProvider>,
+   document.getElementById("root")
+ )}
+</body>
+</html>

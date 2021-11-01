@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="748px" viewBox="0 0 2560 748" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img_BG_home_2560</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2560" height="748"></rect>
+        <rect id="path-3" x="0" y="0" width="1798" height="660"></rect>
+        <linearGradient x1="50%" y1="40.166095%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#4185FF" offset="0%"></stop>
+            <stop stop-color="#3370FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="40.166095%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#4185FF" offset="0%"></stop>
+            <stop stop-color="#3370FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home_2560" transform="translate(0.000000, -74.000000)">
+            <g id="img_BG_home_2560" transform="translate(0.000000, 74.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill="#D8D8D8" opacity="0" xlink:href="#path-1"></use>
+                <g id="编组-2" mask="url(#mask-2)">
+                    <g transform="translate(-40.000000, 1.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="矩形" stroke="none" fill="#D8D8D8" fill-rule="evenodd" opacity="0" xlink:href="#path-3"></use>
+                        <path d="M875.497956,634 C1359.02213,634 1776,403.807099 1776,123.077915 C1776,-157.651269 1359.02213,-350 875.497956,-350 C391.973787,-350 0,-129.724097 0,142 C0,413.724097 391.973787,634 875.497956,634 Z" id="椭圆形" stroke="none" fill="url(#linearGradient-5)" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+                <g id="home-ring_right" mask="url(#mask-2)" fill="url(#linearGradient-6)">
+                    <g transform="translate(1799.000000, 379.000000)" id="形状结合">
+                        <path d="M183,0 C284.068109,0 366,81.9318908 366,183 C366,284.068109 284.068109,366 183,366 C81.9318908,366 0,284.068109 0,183 C0,81.9318908 81.9318908,0 183,0 Z M183,95 C134.398942,95 95,134.398942 95,183 C95,231.601058 134.398942,271 183,271 C231.601058,271 271,231.601058 271,183 C271,134.398942 231.601058,95 183,95 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

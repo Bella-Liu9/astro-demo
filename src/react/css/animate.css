@@ -1,0 +1,213 @@
+@keyframes middleshow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes blinking {
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+}
+@keyframes beeRight {
+  0% {
+    transform: translateX(0vw);
+  }
+  2% {
+    transform: translateX(0vw);
+  }
+  98% {
+    transform: translateX(20vw);
+  }
+  100% {
+    transform: translateX(20vw);
+  }
+}
+@keyframes beeLeft {
+  0% {
+    transform: translateX(0vw);
+  }
+  2% {
+    transform: translateX(0vw);
+  }
+  98% {
+    transform: translateX(-20vw);
+  }
+  100% {
+    transform: translateX(-20vw);
+  }
+}
+@keyframes beeTop {
+  0% {
+    transform: translateY(0vw);
+  }
+  2% {
+    transform: translateY(0vw);
+  }
+  98% {
+    transform: translateY(-10vw);
+  }
+  100% {
+    transform: translateY(-10vw);
+  }
+}
+@keyframes beeBottom {
+  0% {
+    transform: translateY(0vw);
+  }
+  2% {
+    transform: translateY(0vw);
+  }
+  98% {
+    transform: translateY(10vw);
+  }
+  100% {
+    transform: translateY(10vw);
+  }
+}
+.beeTop {
+  width: 12vw;
+  height: 12vw;
+  animation-name: beeTop;
+  animation-timing-function: cubic-bezier(0.21, 0, 0.79, 1);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+.beeBottom {
+  width: 12vw;
+  height: 12vw;
+  animation-name: beeBottom;
+  animation-timing-function: cubic-bezier(0.21, 0, 0.79, 1);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+.beeLeft {
+  animation-name: beeLeft;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+.beeRight {
+  animation-name: beeRight;
+  animation-duration: 30s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes beeX {
+  0% {
+    transform: translateX(0vw);
+  }
+  2% {
+    transform: translateX(0vw);
+  }
+  98% {
+    transform: translateX(-20vw);
+  }
+  100% {
+    transform: translateX(-20vw);
+  }
+}
+@keyframes beeY {
+  0% {
+    transform: translateY(0vw);
+  }
+  2% {
+    transform: translateY(0vw);
+  }
+  98% {
+    transform: translateY(10vw);
+  }
+  100% {
+    transform: translateY(10vw);
+  }
+}
+@keyframes boxX {
+  0% {
+    transform: translateX(0vw);
+  }
+  2% {
+    transform: translateX(0vw);
+  }
+  98% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(-10vw);
+  }
+}
+@keyframes boxY {
+  0% {
+    transform: translateY(0vw);
+  }
+  2% {
+    transform: translateY(0vw);
+  }
+  98% {
+    transform: translateY(5vw);
+  }
+  100% {
+    transform: translateY(5vw);
+  }
+}
+div.bee {
+  width: 10vw;
+  height: 10vw;
+  animation-name: beeY;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+img.bee {
+  animation-name: beeX;
+  animation-timing-function: cubic-bezier(0.21, 0, 0.79, 1);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+div.box {
+  width: 10vw;
+  height: 10vw;
+  animation-name: boxY;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+img.box {
+  animation-name: boxX;
+  animation-timing-function: cubic-bezier(0.21, 0, 0.79, 1);
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+.blink {
+  opacity: 0.2;
+  animation: blinking 5s cubic-bezier(0.3, 0.4, 0.5, 1.6) 1s infinite;
+}
+.swiper-slide.swiper-slide-active {
+  z-index: 999 !important;
+}
